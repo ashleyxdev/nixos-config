@@ -159,7 +159,8 @@
     noto-fonts-cjk-sans
     noto-fonts-color-emoji
     font-awesome
-    (nerdfonts.override { fonts = [ "JetBrainsMono" "FiraCode" ]; })
+    nerd-fonts.jetbrains-mono
+    nerd-fonts.fira-code
   ];
 
   # Enable zsh system-wide
