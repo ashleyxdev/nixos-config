@@ -151,13 +151,6 @@
     # Additional utilities
     brightnessctl  # Screen brightness control (for laptop)
     playerctl  # Media player control
-    
-    # Fonts
-    noto-fonts
-    noto-fonts-cjk
-    noto-fonts-emoji
-    font-awesome
-    (nerdfonts.override { fonts = [ "JetBrainsMono" "FiraCode" ]; })
   ];
 
   # Font configuration
