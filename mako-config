@@ -1,0 +1,44 @@
+# Mako configuration
+
+# Appearance
+font=JetBrainsMono Nerd Font 10
+background-color=#1e1e2e
+text-color=#cdd6f4
+border-color=#89b4fa
+border-size=2
+border-radius=10
+padding=15
+margin=10
+
+# Icons
+icon-path=/usr/share/icons/Papirus-Dark
+max-icon-size=48
+
+# Behavior
+default-timeout=5000
+ignore-timeout=0
+
+# Grouping
+group-by=app-name
+
+# Positioning
+anchor=top-right
+width=350
+height=150
+
+# Progress bar
+progress-color=over #313244
+
+# Urgency levels
+[urgency=low]
+border-color=#94e2d5
+default-timeout=3000
+
+[urgency=normal]
+border-color=#89b4fa
+default-timeout=5000
+
+[urgency=critical]
+border-color=#f38ba8
+default-timeout=0
+ignore-timeout=1
