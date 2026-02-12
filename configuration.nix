@@ -72,6 +72,8 @@
   # Enable polkit for privilege escalation
   security.polkit.enable = true;
 
+  nixpkgs.config.allowUnfree = true;
+
   # Define a user account. Don't forget to set a password with 'passwd'.
   users.users.ashdev = {
     isNormalUser = true;
