@@ -87,7 +87,7 @@
       zsh
       
       # File management
-      thunar
+      xfce.thunar
       xfce.thunar-volman
       xfce.thunar-archive-plugin
       
@@ -198,7 +198,7 @@
     seamless = true;
     clipboard = true;
     dragAndDrop = true;
-    x11 = false;  # Not needed with Wayland
+    # x11 = false;  # Not needed with Wayland
   };
 
   # This option defines the first version of NixOS you have installed on this particular machine,
